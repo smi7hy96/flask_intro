@@ -1,0 +1,62 @@
+/* Import fonts/ external */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+/* Import components*/
+@import url("/button.css");
+@import url("/avatar.css");
+@import url("/banner.css");
+@import url("/card.css");
+@import url("/navigation.css");
+
+
+h1 {
+  color: rgba(95, 2, 31, 1);
+  font-family: 'Raleway', sans-serif;
+  font-size: 72px;
+  line-height: 60px;
+  font-weight: 300;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+h2 {
+    color: rgba(140, 0, 26, 1);
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    text-align: center;
+}
+
+h3 {
+    color: rgba(95, 2, 31, 0.85);
+    font-family: 'Abel', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body, p {
+    color: rgba(140, 0, 26, 0.8);
+    font-family: 'Abel', sans-serif;
+    font-size: 24px;
+    margin: 0px 0px 50px 0px;
+}
+
+a {
+  color:rgba(31, 55, 112, 1);
+  text-decoration: none;
+  margin-left: 0px;
+  transition: 1s ease;
+}
+a:hover {
+  color: white;
+}
+
+.container {
+  width: 800px;
+  margin:auto;
+}
+
+.text-center {
+  text-align: center;
+}

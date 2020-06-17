@@ -1,0 +1,14 @@
+.avatar {
+  border-radius: 30%;
+  height: 150px;
+}
+
+.avatar-lg {
+  border-radius: 30%;
+  height: 125px;
+}
+
+.avatar-sm {
+  border-radius: 30%;
+  height: 80px;
+}

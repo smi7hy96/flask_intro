@@ -1,0 +1,41 @@
+.banner {
+  background: url("https://images.unsplash.com/photo-1591376679425-ed77f7c611e5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+  background-size: cover;
+  overflow-y: auto; /*It will automatically deal with the size of the elements height based on the browser size*/
+  position: fixed;
+  left: 0; /*Sets the start to 0 pixels from the left*/
+  top: 0; /*Sets the start to 0 pixels from the top*/
+  text-align: center; /*aligns text so that it is centered*/
+  width: 100vw;
+  z-index: 10000; /*sets the stacking of objects, higher the number the more priority it has to be in front of other objects*/
+}
+.banner-mid {
+  background: url("https://images.unsplash.com/photo-1591376679425-ed77f7c611e5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+  background-size: cover;
+  height: 80vh;
+}
+
+.banner-bottom {
+  background: url("https://images.unsplash.com/photo-1591888984100-c4e444366570?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+  background-size: cover;
+  background-position: 50% 20%;
+  height: 90vh;
+}
+
+
+.banner-flex-left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.banner-flex-right {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.banner-white-text {
+  color: white;
+}

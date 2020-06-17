@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Components</title>
+    <link rel="stylesheet"  type= "text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+    <link rel="stylesheet"  type= "text/css" href="{{ url_for('static',filename='styles/avatar.css') }}">
+    <link rel="stylesheet"  type= "text/css" href="{{ url_for('static',filename='styles/banner.css') }}">
+    <link rel="stylesheet"  type= "text/css" href="{{ url_for('static',filename='styles/card.css') }}">
+    <link rel="stylesheet"  type= "text/css" href="{{ url_for('static',filename='styles/navigation.css') }}">
+    <link rel="stylesheet"  type= "text/css" href="{{ url_for('static',filename='styles/button.css') }}">
+  </head>
+  <body>
+    <div style="background-color: rgba(93, 115, 126, 1);">
+      <br><br>
+<div class="banner">
+  <h3>BANNERS</h3>
+</div>
+
+    <div class="container text-center">
+      <h1>Components Style Sheet</h1>
+        <a href="{{ url_for('category_card') }}"><h2>Click for category-cards</h2></a>
+        <a href="{{ url_for('card') }}"><h3>Click for card</h3></a>
+      <p>C</p>
+      <a href="https://youtube.com" class = "btn-red">YOUTUBE</a>
+      <a href="https://facebook.com" class = "btn-blue">FACEBOOK</a>
+      <a href="https://www.spartaglobal.com" class = "btn-sparta">SPARTA</a>
+      <br><br><br>
+      <h2>Avatar</h2>
+          <img class ="avatar"src="https://images.unsplash.com/photo-1539037116277-4db20889f2d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Madrid">
+          <img class ="avatar-lg" src="https://images.unsplash.com/photo-1586715725848-5076bbcba8ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=401&q=80" alt="Alicante">
+          <img class ="avatar-sm"src="https://images.unsplash.com/photo-1553187328-1c2f6fd8535d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=282&q=80" alt="Alicante" ">
+    </div>
+    </div>
+    <div class="banner-mid">
+      <div class="container banner-flex-left">
+          <h2 class="banner-white-text">SPARTA</h2>
+
+
+      </div>
+
+    </div>
+    <div class="banner-bottom">
+      <div class="container banner-flex-right">
+          <h2>BLM</h2>
+
+
+      </div>
+
+    </div>
+  </body>
+</html>
