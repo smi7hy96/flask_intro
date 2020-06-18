@@ -14,14 +14,20 @@
     <div style="background-color: rgba(93, 115, 126, 1);">
       <br><br>
 <div class="banner">
-  <h3>BANNERS</h3>
+  <ul class="navbar">
+        <li class="navbar"><a class="navbar" href="{{ url_for('category_card') }}" >Category Cards</a></li>
+        <li class="navbar"><a class="navbar" href="{{ url_for('bootstrap_intro') }}" >Bootstrap</a></li>
+        <li class="navbar-title"><span>HOMEPAGE</span></li>
+        <li class="navbar"><a class="navbar" href="{{ url_for('card') }}" >Card</a></li>
+        <li class="navbar"><a class="navbar" href="{{ url_for('about_me') }}" >About Me</a></li>
+    </ul>
 </div>
 
     <div class="container text-center">
       <h1>Components Style Sheet</h1>
         <a href="{{ url_for('category_card') }}"><h2>Click for category-cards</h2></a>
         <a href="{{ url_for('card') }}"><h3>Click for card</h3></a>
-      <p>C</p>
+        <a href="{{ url_for('bootstrap_intro') }}"><p>Bootstrap Example!</p></a>
       <a href="https://youtube.com" class = "btn-red">YOUTUBE</a>
       <a href="https://facebook.com" class = "btn-blue">FACEBOOK</a>
       <a href="https://www.spartaglobal.com" class = "btn-sparta">SPARTA</a>

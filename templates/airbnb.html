@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>CSS Components</title>
-        <link rel="stylesheet"  type= "text/css" href="{{ url_for('static',filename='styles/style.css') }}">
-    <link rel="stylesheet"  type= "text/css" href="{{ url_for('static',filename='styles/avatar.css') }}">
-    <link rel="stylesheet"  type= "text/css" href="{{ url_for('static',filename='styles/banner.css') }}">
-    <link rel="stylesheet"  type= "text/css" href="{{ url_for('static',filename='styles/card.css') }}">
-    <link rel="stylesheet"  type= "text/css" href="{{ url_for('static',filename='styles/navigation.css') }}">
-    <link rel="stylesheet"  type= "text/css" href="{{ url_for('static',filename='styles/button.css') }}">
-  </head>
-  <body>
-    <div class="navigation">
-      <ul class="navbar">
-        <li class="navbar"><a class="navbar" href="{{ url_for('category_card') }}" >Flare</a></li>
-        <li class="navbar"><a class="navbar" href="{{ url_for('gardening') }}" >Gardening</a></li>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/avatar.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/banner.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/card.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/navigation.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/button.css') }}">
+</head>
+<body>
+<div class="banner">
+    <ul class="navbar">
+        <li class="navbar"><a class="navbar" href="{{ url_for('home') }}">Homepage</a></li>
+        <li class="navbar"><a class="navbar" href="{{ url_for('category_card') }}">Flare</a></li>
+        <li class="navbar"><a class="navbar" href="{{ url_for('gardening') }}">Gardening</a></li>
         <li class="navbar-title"><span>CARDS</span></li>
-        <li class="navbar"><a class="navbar" href="{{ url_for('sailing') }}" >Sailing</a></li>
-        <li class="navbar"><a class="navbar" href="{{ url_for('airbnb') }}" >Air BnB</a></li>
+        <li class="navbar"><a class="navbar" href="{{ url_for('sailing') }}">Sailing</a></li>
+        <li class="navbar"><a class="navbar" href="{{ url_for('airbnb') }}">Air BnB</a></li>
+        <li class="navbar"><a class="navbar" href="{{ url_for('card') }}">Card</a></li>
     </ul>
-    </div>
-    <br><br><br><br>
+</div>
+<br><br><br><br>
 <div class="air-container">
-  <div class="air-image">
+    <div class="air-image">
+    </div>
+    <h2 class="air">Listing Card</h2>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
 </div>
-<h2 class="air">Listing Card</h2>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-</div>
-  </body>
+</body>
 </html>

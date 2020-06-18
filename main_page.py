@@ -32,6 +32,17 @@ def airbnb():
     return render_template("airbnb.html")
 
 
+@app.route("/bootstrap_intro")
+def bootstrap_intro():
+    return render_template("bootstrap.html")
+
+
+@app.route("/about_me")
+def about_me():
+    return render_template("about-me.html")
+
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
