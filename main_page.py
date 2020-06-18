@@ -42,6 +42,9 @@ def about_me():
     return render_template("about-me.html")
 
 
+@app.route("/products")
+def products():
+    return render_template("products.html")
 
 
 if __name__ == "__main__":
